@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import io.github.cursodsousa.todo.model.Todo;
-import io.github.cursodsousa.todo.repository.TodoRepository;
+import io.github.adrianomss.todo.model.Todo;
+import io.github.adrianomss.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
